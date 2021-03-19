@@ -21,7 +21,7 @@ def display_board(board):
 
 def enter_move(board):
     # The function accepts the board current status, asks the user about their move,
-    dec = input("Enter Your Fuckingggg Choice.......... :")
+    dec = input("Enter Your Choice.......... :")
     if len(dec) == 1 and dec != '0':
         dec = int(dec)
         for row in range(3):

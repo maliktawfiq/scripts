@@ -69,7 +69,7 @@ def victory_for(board, sign):
     for i in range(3):
         if board[i][i] == sign:
             count1 += 1
-        if board[2-i][2-i] == sign:
+        if board[2-i][i] == sign:
             count2 += 1
     if count1 == 3 or count2 == 3:
         win = True
